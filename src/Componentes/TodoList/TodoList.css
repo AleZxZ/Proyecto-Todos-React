@@ -1,0 +1,28 @@
+.TodoList{
+    margin:0;
+    padding:0 0 56px;
+    list-style:none
+}
+/*contendor estilos div sin tareas*/
+.message-box {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    text-align: center;      /* Alinea el texto dentro del div */
+    background-color: #f0f8ff; /* Fondo claro */
+    border: 2px solid #4a90e2; /* Borde decorativo */
+    border-radius: 10px;       /* Bordes redondeados */
+    padding: 20px;             /* Espaciado interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 20px auto;         /* Márgenes automáticos para centrar */
+    max-width: 80%;            /* Ancho máximo */
+  }
+  
+  .message-box h1 {
+    font-size: 2rem;            /* Tamaño de fuente grande */
+    color: #4a90e2;             /* Color del texto */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    font-weight: bold;          /* Texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del texto */
+    margin: 0;                  /* Eliminar márgenes del h1 */
+}
